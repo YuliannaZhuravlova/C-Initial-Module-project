@@ -25,7 +25,7 @@ namespace HappyZoo {
             }
 
             if (Stuff.ContainsKey(zooGoods)) { //If Stuff is yet in Warehouse, just increase the number
-                Stuff[zooGoods] += count;
+                Stuff[zooGoods] +=  count;
             }
             else {
                 Stuff.Add(zooGoods, count);// If Stuff is not in Warehouse, add it
